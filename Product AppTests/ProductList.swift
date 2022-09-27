@@ -1,14 +1,13 @@
 //
-//  Product_AppTests.swift
+//  ProductList.swift
 //  Product AppTests
 //
-//  Created by Fahri Novaldi on 27/09/22.
+//  Created by Fahri Novaldi on 28/09/22.
 //
 
 import XCTest
-@testable import Product_App
 
-final class Product_AppTests: XCTestCase {
+final class ProductList: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -26,18 +25,11 @@ final class Product_AppTests: XCTestCase {
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
 
-    func testNoStoryBoard() {
-        
-    }
-    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    func testModelConformCodeable() {
-        
-    }
+
 }

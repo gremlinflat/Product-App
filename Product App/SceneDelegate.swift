@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let home = ProductViewController()
         
-        window?.rootViewController = home
+        window?.rootViewController = UINavigationController(rootViewController: home)
         window?.makeKeyAndVisible()
     }
 
