@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         
-        let home = ProductViewController()
+        let home = ProductListViewController()
         
         window?.rootViewController = UINavigationController(rootViewController: home)
         window?.makeKeyAndVisible()
